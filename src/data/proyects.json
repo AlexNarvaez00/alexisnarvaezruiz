@@ -1,0 +1,22 @@
+{
+  "proyects": [
+    {
+      "to": "https://www.youtube.com/",
+      "className": "col-span-1",
+      "title": "Portfolio",
+      "img": "code.jpg",
+      "tags": ["react", "javascript", "html","tailwind css"],
+      "description": "Mi primer portfolio web realizado con ...",
+      "keysWords": ["proyects"]
+    },
+    {
+      "to": "https://github.com/AlexNarvaez00/js-alpine-gallery-app",
+      "className": "col-span-1",
+      "title": "Consumo de API con React",
+      "img": "/img/rickandmorty.png",
+      "tags": ["react", "javascript", "html","tailwind css"],
+      "description": "Consumo de la API de RickAndMorty para mostrarlo en una galeria...",
+      "keysWords": ["proyects"]
+    }
+  ]
+}

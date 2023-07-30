@@ -1,0 +1,9 @@
+@tailwind components;
+@layer components {
+  
+  .grid-container{
+    @apply w-full grid;
+    @apply gap-4 md:gap-7;
+  }
+
+}

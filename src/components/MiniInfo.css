@@ -1,0 +1,10 @@
+@tailwind components;
+@layer components {
+  
+  .mini-info{
+    @apply flex flex-col;
+    @apply justify-center text-center;
+    @apply gap-2 text-gray-800; 
+  }
+
+}

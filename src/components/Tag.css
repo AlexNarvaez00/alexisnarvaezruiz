@@ -1,0 +1,10 @@
+@tailwind components;
+@layer components {
+  
+  .tag{
+    @apply flex px-3;
+    @apply py-2 bg-indigo-300 dark:bg-indigo-500;
+    @apply rounded-full font-semibold;
+  }
+
+}
