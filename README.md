@@ -1,3 +1,31 @@
+<h2 align="center">¡Hola! ☺ Soy Alexis Narvaez, este es mi portfolio 👾.</h2>
+
+## Instalación.
+
+Clonación del proyecto.
+
+
+```bash 
+    git clone https://github.com/AlexNarvaez00/alexisnarvaezruiz.git
+```
+
+Instalación de las dependencias.
+
+```bash 
+    npm i
+```
+
+Inicio del servidor de desarrollo.
+
+```bash 
+    npm run dev
+```
+
+## Contacto.
+
+* [LinkedIn.](https://www.linkedin.com/in/alexis-narvaez-ruiz)
+
+____
 # React + Vite
 
 This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
