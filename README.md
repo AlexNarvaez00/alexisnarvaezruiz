@@ -1,5 +1,11 @@
 <h2 align="center">¡Hola! ☺ Soy Alexis Narvaez, este es mi portfolio 👾.</h2>
 
+<div align="center">
+    <img src="" height="300px"/>
+</div>
+
+___
+
 ## Instalación.
 
 Clonación del proyecto.
