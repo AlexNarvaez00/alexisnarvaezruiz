@@ -71,7 +71,7 @@ const Index = ({ children }) => {
             />
           </Card>
           <CardLink
-            className={`col-span-2 md:col-span-3 bg-[url('code.jpg')] text-white dark:text-gray-200 dark:shadow-lg dark:shadow-black/60`}
+            className={`col-span-2 md:col-span-3 bg-[url('/code.jpg')] text-white dark:text-gray-200 dark:shadow-lg dark:shadow-black/60`}
             toRouter={true}
             to="/proyects"
           >
