@@ -1,7 +1,7 @@
 <h2 align="center">¡Hola! ☺ Soy Alexis Narvaez, este es mi portfolio 👾.</h2>
 
 <div align="center">
-    <img src="" height="300px"/>
+    <img src="https://raw.githubusercontent.com/AlexNarvaez00/alexisnarvaezruiz/main/media/banner.jpeg" height="300px"/>
 </div>
 
 ___
