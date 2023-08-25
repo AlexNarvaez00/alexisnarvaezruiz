@@ -6,6 +6,7 @@ import { BrowserRouter, Routes, Route } from "react-router-dom";
 import { DarkModeContainer } from "./contexts/DarkModeContext";
 
 function App() {
+  
   return (
     <DarkModeContainer>
       <BrowserRouter>

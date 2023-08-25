@@ -1,0 +1,9 @@
+@tailwind components;
+
+@layer components {
+  
+  .card-link{
+    @apply rounded-3xl overflow-hidden;
+  }
+
+}

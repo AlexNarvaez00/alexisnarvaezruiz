@@ -3,8 +3,7 @@ import NavButton from "../../../components/NavButton";
 import { ProyectsContext } from "../../../contexts/ProyectsContext";
 
 export default function NavProyects() {
-  const { setAllProyects, setPersonalProyects, setExperimentalProyects } =
-    useContext(ProyectsContext);
+  const { setAllProyects, setFilter, tags } = useContext(ProyectsContext);
 
   return (
     <nav>
@@ -12,26 +11,11 @@ export default function NavProyects() {
         <li className={`flex`}>
           <NavButton onClick={setAllProyects}>Todo</NavButton>
         </li>
-        <li
-          className={`flex`}
-          onClick={(event) => {
-            setPersonalProyects();
-          }}
-        >
-          <NavButton>Proyectos</NavButton>
-        </li>
-        <li className={`flex`}>
-          <NavButton
-            onClick={(event) => {
-              setExperimentalProyects();
-            }}
-          >
-            Experimentos
-          </NavButton>
-        </li>
-        <li className={`flex`}>
-          <NavButton>Recomendaciones</NavButton>
-        </li>
+        {tags?.map((tag) => (
+          <li key={tag} className="flex" onClick={event => setFilter(tag)}>
+            <NavButton>{tag}</NavButton>
+          </li>
+        ))}
       </ul>
     </nav>
   );

@@ -2,7 +2,7 @@
 @layer components {
   
   .navButton {
-    @apply p-2 md:p-4 hover:bg-purple-300; 
+    @apply p-2 md:px-3 md:py-2 hover:bg-purple-300; 
     @apply hover:dark:bg-purple-500 cursor-pointer;
     @apply hover:text-gray-800 transition-all;
     @apply hover:font-semibold font-semibold;
